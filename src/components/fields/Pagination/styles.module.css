@@ -1,0 +1,31 @@
+.root {
+    display: flex;
+}
+
+.root > div:first-child {
+    border-radius: 0.25rem 0 0 0.2rem;
+    border-left: 0.0125rem solid rgba(17, 17, 17, 0.25);
+}
+
+.root > div:last-child {
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.childs {
+    display: flex;
+}
+
+.child {
+    border-top: 0.0125rem solid rgba(17, 17, 17, 0.25);
+    border-right: 0.0125rem solid rgba(17, 17, 17, 0.25);
+    border-bottom: 0.0125rem solid rgba(17, 17, 17, 0.25);
+    padding: 0.313rem 0.75rem;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.childActive,
+.child:hover {
+    background: var(--primary-color);
+    color: #ffffff;
+}
