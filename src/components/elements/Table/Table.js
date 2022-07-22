@@ -59,7 +59,7 @@ Table.propTypes = {
   dataSource: PropTypes.object,
 };
 
-const Tables = (props) => {
+export const Tables = (props) => {
   const { data, sortBy, sortByAsc, sortByDesc, sortFormat } = props;
 
   useEffect(() => {

@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Home render 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="filter"
+  >
+    <InputSearch
+      className="filterInput"
+      onClick={[Function]}
+      placeholder="Search"
+      resetValue=""
+    />
+    <SelectOption
+      className="filterSelect"
+      onClick={[Function]}
+      optionList={
+        Array [
+          Object {
+            "label": "Male",
+            "value": "male",
+          },
+          Object {
+            "label": "Female",
+            "value": "female",
+          },
+        ]
+      }
+      resetValue=""
+    />
+    <Button
+      className=""
+      onClick={[Function]}
+      size="small"
+      variant="outlined"
+    >
+      Reset Filter
+    </Button>
+  </div>
+  <Table
+    column={
+      Array [
+        Object {
+          "key": "username",
+          "title": "Username",
+        },
+        Object {
+          "ascDesc": true,
+          "handleAsc": [Function],
+          "handleDesc": [Function],
+          "key": "name",
+          "title": "Name",
+        },
+        Object {
+          "ascDesc": true,
+          "handleAsc": [Function],
+          "handleDesc": [Function],
+          "key": "email",
+          "title": "Email",
+        },
+        Object {
+          "ascDesc": true,
+          "handleAsc": [Function],
+          "handleDesc": [Function],
+          "key": "gender",
+          "title": "Gender",
+        },
+        Object {
+          "ascDesc": true,
+          "handleAsc": [Function],
+          "handleDesc": [Function],
+          "key": "registeredDate",
+          "title": "Registered Date",
+        },
+      ]
+    }
+    dataSource={
+      Object {
+        "results": Array [
+          Object {
+            "name": "name",
+          },
+        ],
+      }
+    }
+  />
+  <div
+    className="filterPagination"
+  >
+    <Pagination
+      className=""
+      onClick={[Function]}
+      resetValue=""
+      totalData={1}
+    />
+  </div>
+</div>
+`;

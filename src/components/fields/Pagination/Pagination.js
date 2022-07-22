@@ -4,6 +4,7 @@ import styles from './styles.module.css';
 
 export default function Pagination(props) {
   const { className, onClick, resetValue } = props;
+  console.log(props);
   const [currentPage, setCurrentPage] = useState(1);
   const [lastPage, setLastPage] = useState(5);
 

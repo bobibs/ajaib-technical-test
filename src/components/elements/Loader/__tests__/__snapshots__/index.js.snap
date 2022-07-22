@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Loader render 1`] = `
+<div
+  className="root"
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;

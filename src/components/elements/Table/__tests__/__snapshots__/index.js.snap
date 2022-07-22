@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Table render 1`] = `
+<div
+  className="root"
+>
+  <Tables
+    data={
+      Array [
+        Object {
+          "data": Array [
+            Object {
+              "key": "username",
+              "text": "mrbobi",
+            },
+          ],
+          "key": "username",
+          "title": "Username",
+        },
+      ]
+    }
+    sortBy=""
+    sortByAsc={[Function]}
+    sortByDesc={[Function]}
+    sortFormat=""
+  />
+</div>
+`;
+
+exports[`src/components/elements/Table render Tables 1`] = `
+<div
+  className="table"
+>
+  <div>
+    <div
+      className="tableHead"
+    >
+      <div>
+        name
+      </div>
+      <div
+        className="tableHeadAction"
+      >
+        <ImageBox
+          className="tableHeadIcon ascIcon tableHeadIconActive"
+          format="svg"
+          onClick={[Function]}
+          src="caret-up"
+        />
+        <ImageBox
+          className="tableHeadIcon descIcon "
+          format="svg"
+          onClick={[Function]}
+          src="caret-down"
+        />
+      </div>
+    </div>
+    <div
+      className="tableBody"
+    >
+      <div
+        className="tableBodyText"
+      >
+        <div>
+          Bobi
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      className="tableHead"
+    >
+      <div>
+        username
+      </div>
+      
+    </div>
+    <div
+      className="tableBody"
+    >
+      <div
+        className="tableBodyText"
+      >
+        <div>
+          Bobi
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

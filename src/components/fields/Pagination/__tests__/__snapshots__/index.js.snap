@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Pagination render 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="child"
+    onClick={[Function]}
+  >
+    First
+  </div>
+  <div
+    className="child"
+    onClick={[Function]}
+  >
+    Prev
+  </div>
+  <div
+    className="childs"
+  >
+    <div
+      className="child "
+      onClick={[Function]}
+    >
+      1
+    </div>
+    <div
+      className="child "
+      onClick={[Function]}
+    >
+      2
+    </div>
+    <div
+      className="child "
+      onClick={[Function]}
+    >
+      3
+    </div>
+    <div
+      className="child "
+      onClick={[Function]}
+    >
+      4
+    </div>
+    <div
+      className="child childActive"
+      onClick={[Function]}
+    >
+      5
+    </div>
+  </div>
+  <div
+    className="child"
+    onClick={[Function]}
+  >
+    Next
+  </div>
+  <div
+    className="child"
+    onClick={[Function]}
+  >
+    Last
+  </div>
+</div>
+`;

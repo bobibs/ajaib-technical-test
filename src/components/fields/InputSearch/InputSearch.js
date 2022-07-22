@@ -8,7 +8,6 @@ export default function InputSearch(props) {
   const [value, setValue] = useState('');
 
   const classes = [styles.root, className].filter(Boolean).join(' ');
-  const clearValue = () => setValue('');
 
   useEffect(() => {
     if (resetValue) {
@@ -26,7 +25,7 @@ export default function InputSearch(props) {
         type='text'
       />
       {value.length ? (
-        <div className={styles.clearIcon} onClick={clearValue}>
+        <div className={styles.clearIcon} onClick={() => setValue('')}>
           <ImageBox className={styles.icon} src='clear' />
         </div>
       ) : (

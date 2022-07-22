@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/InputSearch render 1`] = `
+<div
+  className="root"
+>
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value="value"
+  />
+  <div
+    className="clearIcon"
+    onClick={[Function]}
+  >
+    <ImageBox
+      className="icon"
+      format="svg"
+      onClick={[Function]}
+      src="clear"
+    />
+  </div>
+  <div
+    className="icons"
+    onClick={[Function]}
+  >
+    <ImageBox
+      className="icon"
+      format="svg"
+      onClick={[Function]}
+      src="search"
+    />
+  </div>
+</div>
+`;

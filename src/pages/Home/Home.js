@@ -11,8 +11,7 @@ import { filterGenderList, listTableHead } from './data';
 import styles from './styles.module.css';
 
 export default function Home() {
-  const { homeReducer } = useSelector((s) => s);
-  const { data, getAllUsers } = homeReducer;
+  const { data, getAllUsers } = useSelector((s) => s.homeReducer);
   const [resetSearch, setResetSearch] = useState(false);
   const [resetGender, setResetGender] = useState(false);
   const [resetPagination, setResetPagination] = useState(false);

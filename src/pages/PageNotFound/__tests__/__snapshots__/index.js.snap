@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/PageNotFound render 1`] = `
+<div
+  className="root"
+>
+  <ImageBox
+    className="image"
+    format="svg"
+    onClick={[Function]}
+    src="404"
+  />
+  <Button
+    className=""
+    onClick={[Function]}
+    size="small"
+    variant="outlined"
+  >
+    Back to home
+  </Button>
+</div>
+`;
